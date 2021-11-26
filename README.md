@@ -13,7 +13,40 @@
 ![pohoncidr](https://imgur.com/a3jsjKY.png)
 ### Config pada GNS3
 #### Router
+Pada semua router dilakukan ```nano /etc/sysctl.conf``` lalu uncommand ```net.ipv4.ip_forward=1```
 ##### FOOSHA
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 10.4.64.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.4.192.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.4.32.1
+netmask 255.255.255.252
+```
+Lakukan command berikut pada router FOOSHA : ```iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.4.0.0/16```  
+
+Untuk route nya dapat melakukan ```bash route.sh ``` dengan route.sh yang berisi sebagai berikut:
+```
+route add -net 10.4.64.0 netmask 255.255.252.0 gw 10.4.64.2
+
+route add -net 10.4.128.0 netmask 255.255.128.0 gw 10.4.192.2
+
+route add -net 10.4.0.0 netmask 255.255.192.0 gw 10.4.32.2
+```
 ##### WATER7
 ##### PUCCI
 ##### GUANHAO

@@ -11,10 +11,13 @@
 ![g](https://imgur.com/qqT0GRZ.png)
 ### Pohon pembagian IP
 ![pohoncidr](https://imgur.com/a3jsjKY.png)
+
 ### Config pada GNS3
 Pada semua node SELAIN ROUTER FOOSHA dilakukan ```echo nameserver 192.168.122.1 > /etc/resolv.conf```
-#### Router
+
+### Router
 Pada semua router dilakukan ```nano /etc/sysctl.conf``` lalu uncommand ```net.ipv4.ip_forward=1```
+
 ##### FOOSHA
 ```
 auto lo
@@ -196,14 +199,95 @@ address 10.4.18.1
 netmask 255.255.255.240
 ```  
   
-#### Klien
+### Klien
+
 ##### BLUENO
-##### CALMBELT
+```
+auto eth0
+iface eth0 inet static
+address 10.4.64.2
+netmask 255.255.252.0
+gateway 10.4.64.1
+```
+
 ##### CIPHER
-##### COURTYARD
-##### ELENA
-##### ENIESLOBBY
-##### JABRA
+```
+auto eth0
+iface eth0 inet static
+address 10.4.160.2
+netmask 255.255.252.0
+gateway 10.4.160.1
+```
+
 ##### JIPANGU
-##### JORGE
+```
+auto eth0
+iface eth0 inet static
+address 10.4.136.2
+netmask 255.255.255.128
+gateway 10.4.136.1
+```
+
+##### CALMBELT
+```
+auto eth0
+iface eth0 inet static
+address 10.4.128.2
+netmask 255.255.248.0
+gateway 10.4.128.1
+```
+
+##### COURTYARD
+```
+auto eth0
+iface eth0 inet static
+address 10.4.128.3
+netmask 255.255.248.0
+gateway 10.4.128.1
+```
+
+##### JABRA
+```
+auto eth0
+iface eth0 inet static
+address 10.4.20.2
+netmask 255.255.252.0
+gateway 10.4.20.1
+```
+
+##### ENIESLOBBY
+```
+auto eth0
+iface eth0 inet static
+address 10.4.4.3
+netmask 255.255.255.0
+gateway 10.4.4.1
+```
+
+##### ELENA
+```
+auto eth0
+iface eth0 inet static
+address 10.4.0.2
+netmask 255.255.252.0
+gateway 10.4.0.1
+```
+
 ##### MAINGATE
+```
+auto eth0
+iface eth0 inet static
+address 10.4.16.3
+netmask 255.255.254.0
+gateway 10.4.16.1
+```
+
+##### JORGE
+```
+auto eth0
+iface eth0 inet static
+address 10.4.18.2
+netmask 255.255.255.240
+gateway 10.4.18.1
+```
+

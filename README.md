@@ -70,7 +70,7 @@ iface eth2 inet static
 address 10.4.144.1
 netmask 255.255.255.252
 ```
-
+  
 Untuk route nya dapat melakukan ```bash route.sh``` dengan route.sh yang berisi sebagai berikut:
 ```
 route add -net 10.4.160.0 netmask 255.255.252.0 gw 10.4.160.2
@@ -80,11 +80,122 @@ route add -net 10.4.128.0 netmask 255.255.224.0 gw 10.4.144.2
   
 ##### PUCCI
 ```
-```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.144.2
+netmask 255.255.255.252
+gateway 10.4.144.1
+
+auto eth1
+iface eth1 inet static
+address 10.4.136.1
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 10.4.128.1
+netmask 255.255.248.0
+```  
+  
 ##### GUANHAO
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.32.2
+netmask 255.255.255.252
+gateway 10.4.32.1
+
+auto eth1
+iface eth1 inet static
+address 10.4.20.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.4.8.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.4.16.1
+netmask 255.255.254.0
+```  
+  
+Untuk route nya dapat melakukan ```bash route.sh``` dengan route.sh yang berisi sebagai berikut:
+```
+route add -net 10.4.16.0 netmask 255.255.252.0 gw 10.4.16.3
+
+route add -net 10.4.16.0 netmask 255.255.252.0 gw 10.4.16.2
+
+route add -net 10.4.20.0 netmask 255.255.252.0 gw 10.4.20.2
+
+route add -net 10.4.0.0 netmask 255.255.240.0 gw 10.4.8.2
+```  
+  
 ##### OIMO
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.8.2
+netmask 255.255.255.252
+gateway 10.4.8.1
+
+auto eth1
+iface eth1 inet static
+address 10.4.4.1
+netmask 255.255.255.0
+```  
+  
+Untuk route nya dapat melakukan ```bash route.sh``` dengan route.sh yang berisi sebagai berikut:
+```
+route add -net 10.4.0.0 netmask 255.255.248.0 gw 10.4.4.3
+
+route add -net 10.4.0.0 netmask 255.255.248.0 gw 10.4.4.2
+```  
+  
 ##### SEASTONE
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.4.2
+netmask 255.255.255.0
+gateway 10.4.4.1
+
+auto eth1
+iface eth1 inet static
+address 10.4.0.1
+netmask 255.255.252.0
+```  
+  
 ##### ALABASTA
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.16.2
+netmask 255.255.254.0
+gateway 10.4.16.1
+
+auto eth1
+iface eth1 inet static
+address 10.4.18.1
+netmask 255.255.255.240
+```  
+  
 #### Klien
 ##### BLUENO
 ##### CALMBELT

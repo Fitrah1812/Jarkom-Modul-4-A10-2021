@@ -12,3 +12,22 @@
 ### Pohon pembagian IP
 ![pohoncidr](https://imgur.com/a3jsjKY.png)
 ### Config pada GNS3
+#### Router
+##### FOOSHA
+##### WATER7
+##### PUCCI
+##### GUANHAO
+##### OIMO
+##### SEASTONE
+##### ALABASTA
+#### Klien
+##### BLUENO
+##### CALMBELT
+##### CIPHER
+##### COURTYARD
+##### ELENA
+##### ENIESLOBBY
+##### JABRA
+##### JIPANGU
+##### JORGE
+##### MAINGATE

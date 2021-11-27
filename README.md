@@ -6,6 +6,12 @@
 
 ![a](https://imgur.com/ThUivSB.png)
 
+#### Kedua kita perlu memperhatikan hasil yang sudah kita dapatkan diatas dan dibuat tabel untuk mempermudah menghitung pohon. 
+
+Note : Cara menghitungnya adalah sebagai berikut :
+
+Blueno Memiliki 1000 setelah itu ditambah dengan jumlah router yaitu 1 sehingga subnet A1 = 1000+1 begitupun seterusnya sehingga didapatkan A1 = 1001
+
 
 | Subnet      | Jumlah IP | Netmask |
 | ----------- | --------- | ------- |

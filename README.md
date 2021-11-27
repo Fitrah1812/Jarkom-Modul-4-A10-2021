@@ -45,7 +45,9 @@ Blueno Memiliki 1000 setelah itu ditambah dengan jumlah router yaitu 1 sehingga 
 ![g](https://imgur.com/qqT0GRZ.png)
 ### Pohon pembagian IP
 ![pohoncidr](https://imgur.com/a3jsjKY.png)
-
+![tabelcidr1](https://imgur.com/yQUjlNK.png)
+![tabelcidr2](https://imgur.com/FqSZKUb.png)  
+  
 ### Config pada GNS3
 Pada semua node SELAIN ROUTER FOOSHA dilakukan ```echo nameserver 192.168.122.1 > /etc/resolv.conf```
 

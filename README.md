@@ -32,7 +32,28 @@ Blueno Memiliki 1000 setelah itu ditambah dengan jumlah router yaitu 1 sehingga 
 
 
 ### Hasil Pembagian Pohon IP
+#### Ketiga Membuat gambar Pohon IP setelah kita mendapatkan tabel diatas kita harus membuat dalam bentuk pohon sehingga mempermudah untuk pembagian IP serta mempermudah memperhitungan ip-ip apa saja yang didapatkan.
 
+![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/pohonIp.jpeg)
+
+#### Keempat selanjutnya pembagian pohon ip diatas diletakkan di dalam tabel sehingga mempermudah routing di cisco packet tracer untuk mengenali setiap nodenya
+
+| Subnet      | Jumlah IP | Netmask |     IP     |  Subnet Mask  |
+| ----------- | --------- | ------- | ---------- | ------------- |
+| A1          | 1001      |   /22   |  10.4.8.0  | 255.255.252.0 |
+| A2          | 13        |   /28   |  10.4.8.0  | 255.255.252.0 |
+| A3          | 502       |   /23   |  10.4.8.0  | 255.255.252.0 |
+| A4          | 2         |   /30   |  10.4.8.0  | 255.255.252.0 |
+| A5          | 2         |   /30   |  10.4.8.0  | 255.255.252.0 |
+| A6          | 2         |   /30   |  10.4.8.0  | 255.255.252.0 |
+| A7          | 101       |   /25   |  10.4.8.0  | 255.255.252.0 |
+| A8          | 701       |   /22   |  10.4.8.0  | 255.255.252.0 |
+| A9          | 2021      |   /21   |  10.4.8.0  | 255.255.252.0 |
+| A10         | 521       |   /22   |  10.4.8.0  | 255.255.252.0 |
+| A11         | 2         |   /30   |  10.4.8.0  | 255.255.252.0 |
+| A12         | 721       |   /22   |  10.4.8.0  | 255.255.252.0 |
+| A13         | 252       |   /24   |  10.4.8.0  | 255.255.252.0 |
+| Total       | 5841      |   /19   |  10.4.8.0  | 255.255.252.0 |
 
 ## Perhitungan Pohon IP GNS3 CIDR
 ### Penggabungan subnet

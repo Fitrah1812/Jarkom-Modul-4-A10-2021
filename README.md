@@ -67,7 +67,7 @@ Kita akan membuat rangkaiannya terlebih dahulu di Cisco Packet Tracer. Seperti d
 
 ![iamges](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/router.jpeg)
 
-#### Ketujuh kita perlu lakukan pengelan setiap node bahwa paket akan melewati router tersebut
+#### Ketujuh kita perlu lakukan pengenalan setiap node bahwa paket akan melewati router tersebut
 
 ![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/static.jpeg)
 

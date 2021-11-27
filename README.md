@@ -57,6 +57,32 @@ Cara perhitungannya yaitu kita melihat netmask yang available setelah itu kita t
 | A13         | 252       |   /24   |  10.4.26.0   | 255.255.255.0   |
 | Total       | 5841      |   /19   |              | 255.255.224.0   |
 
+#### Kelima sesudah kita mendapatkan data diatas, selanjutnya kita harus melakukan routing di cisco packet tracernya
+
+Kita akan membuat rangkaiannya terlebih dahulu di Cisco Packet Tracer. Seperti dibawah  ini : 
+
+![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/gambar.jpeg)
+
+#### Keenam setelah kita membuat rangkaian serperti diatas kita akan menghubungkan setiap node yang sudah kita dapatkan ip nya diatas, dengan perhitungan apabila dari router dihitung 1 sedangkan klien dihitung 2. Untuk contohnya di A8 dengan ip 10.4.12.0 jadi dari water7 ipnya 10.4.12.1 sedangkan ip dari cipher 10.4.12.2 dengan default gateway mengarahkan ke ip water7 apabila paket ingin keluar ke tempat lain.
+
+![iamges](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/router.jpeg)
+
+#### Ketujuh kita perlu lakukan pengelan setiap node bahwa paket akan melewati router tersebut
+
+![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/static.jpeg)
+
+#### Kedelapan kita harus testing ping apabila routing sudah terhubung semua
+
+On Progress
+
+![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/onprogress.jpeg)
+
+Succesful
+
+![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/Gambar_cisco/sukses.jpeg)
+
+Apabila sudah sukses maka akan muncul succesful sehingga ping berhasil
+
 ## Perhitungan Pohon IP GNS3 CIDR
 ### Penggabungan subnet
 ![a](https://imgur.com/ThUivSB.png)

@@ -375,4 +375,7 @@ address 10.4.18.2
 netmask 255.255.255.240
 gateway 10.4.18.1
 ```
+Hasilnya adalah sebagai berikut :
+
+![images](https://github.com/Fitrah1812/Jarkom-Modul-4-A10-2021/blob/main/Dokumentasi/pingItsAcid.jpeg)
 

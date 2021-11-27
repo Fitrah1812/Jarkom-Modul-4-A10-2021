@@ -2,6 +2,10 @@
 
 ## Perhitungan Pohon IP CISCO VLSM
 ### Pembagian Subnet
+#### Pertama yang perlu kita lakukan adalah pembagian subnet seperti dibawah ini. Untuk penentuan A1, A2 ... dan seterusnya bisa diambil secara bebas namun nanti akan menghasilkan ip yang sama. 
+
+![a](https://imgur.com/ThUivSB.png)
+
 
 | Subnet      | Jumlah IP | Netmask |
 | ----------- | --------- | ------- |

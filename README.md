@@ -1,5 +1,29 @@
 # Jarkom-Modul-4-A10-2021
 
+## Perhitungan Pohon IP CISCO VLSM
+### Pembagian Subnet
+
+| Subnet      | Jumlah IP | Netmask |
+| ----------- | --------- | ------- |
+| A1          | 1001      |   /22   |
+| A2          | 13        |   /28   | 
+| A3          | 502       |   /23   | 
+| A4          | 2         |   /30   | 
+| A5          | 2         |   /30   | 
+| A6          | 2         |   /30   | 
+| A7          | 101       |   /25   | 
+| A8          | 701       |   /22   | 
+| A9          | 2021      |   /21   | 
+| A10         | 521       |   /22   | 
+| A11         | 2         |   /30   | 
+| A12         | 721       |   /22   | 
+| A13         | 252       |   /24   | 
+| Total       | 5841      |   /19   | 
+
+
+### Hasil Pembagian Pohon IP
+
+
 ## Perhitungan Pohon IP GNS3 CIDR
 ### Penggabungan subnet
 ![a](https://imgur.com/ThUivSB.png)
